@@ -1,0 +1,140 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 30px;
+      background-color: white;
+      border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+      height: 100px;
+    }
+
+    .navbar a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    .navbar a:hover {
+      color: #007BFF;
+    }
+    
+.section h1 {
+    padding: 50px 150px;
+}
+.section img {
+    padding:0px 170px;
+}
+
+/* about me page starts here*/
+
+
+ .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px;
+      gap: 30px; /* space between text and image */
+    }
+
+    .about-text {
+      flex: 1;
+      color: #006400;
+    }
+
+    .about-image img {
+      max-width: 250px;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    /* Optional: Make it responsive */
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-image img {
+        max-width: 100%;
+      }
+    }
+
+    /* contacts page starts here*/
+
+    /* .contact-card {
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .contact-card h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .contact-card input,
+    .contact-card textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    .contact-card button {
+      width: 100%;
+      padding: 12px;
+      background-color: #006400; /* Dark green */
+      /* color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-card button:hover {
+      background-color: #004f00;
+    } */ 
+
+    .wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     padding: 50px;
+    }
+
+    .contact-card {
+      background-color: white;
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+    }
+
+    .contact-card h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .contact-card input {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+    }
